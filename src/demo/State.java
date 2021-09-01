@@ -28,7 +28,7 @@ public class State {
         allValues[0] = x;
 
         double y = i-x;
-        for (int j = 1; j < allValues.length-1; j++) {
+        for (int j = 1; j < allValues.length; j++) {
             allValues[j] = y/(nrOfOutputs-1);
         }
         nrOfRunIt++;
