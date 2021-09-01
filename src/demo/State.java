@@ -22,7 +22,7 @@ public class State {
     }
 
     public double[] runState(double i){
-        double[] allValues = new double[nrOfOutputs];  //0=x, 1, 2
+        double[] allValues = new double[nrOfOutputs];
 
         double x = i*procentage;
         allValues[0] = x;
